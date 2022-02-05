@@ -1,0 +1,6 @@
+module Pods_RunImageClassification {
+  umbrella header "Pods-RunImageClassification-umbrella.h"
+
+  export *
+  module * { export * }
+}

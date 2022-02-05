@@ -1,0 +1,24 @@
+{
+  "name": "STBImage",
+  "version": "0.0.1",
+  "summary": "A short description of STBImage.",
+  "description": "STBImage TensorFlow",
+  "homepage": "http://sadukow.com/STBImage",
+  "license": "MIT",
+  "authors": {
+    "Sadukow": "sadukow@gmail.com"
+  },
+  "platforms": {
+    "osx": "10.15"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "STBImage",
+    "STBImage/**/*.{h,m,swift}",
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude"
+}

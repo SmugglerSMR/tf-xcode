@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+platform :osx, '10.15'
+
+target 'FastStyleRun' do
+
+  #use_frameworks!
+
+  use_modular_headers!
+
+  # Pods for FastStyleDemo
+  #pod 'SwiftProtobuf', '~> 1.0'
+
+  pod 'ModelSupport', :path => '../ModelSupport'
+
+  pod 'STBImage', :path => '../STBImage'
+
+  #pod 'ModelSupport', :podspec => '../ModelSupport/ModelSupport.podspec'
+
+  pod 'FastStyleTransfer', :path => '../FastStyleTransfer'
+
+end
+
+pre_install do |installer|
+  # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
+  Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+end
+
+# Workaround for Cocoapods issue #7606
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+      config.build_settings.delete('CODE_SIGNING_ALLOWED')
+      config.build_settings.delete('CODE_SIGNING_REQUIRED')
+  end
+end

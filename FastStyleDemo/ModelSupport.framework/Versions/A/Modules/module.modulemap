@@ -1,0 +1,11 @@
+framework module ModelSupport {
+  umbrella header "ModelSupport.h"
+
+  export *
+  module * { export * }
+}
+
+module ModelSupport.Swift {
+    header "ModelSupport-Swift.h"
+    requires objc
+}

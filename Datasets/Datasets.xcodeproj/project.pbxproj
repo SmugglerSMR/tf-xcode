@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95319285249EE3BB00553C09 /* ImagePosture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95319284249EE3BB00553C09 /* ImagePosture.swift */; };
+		95FDD727249C5A05003409F7 /* Datasets.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FDD725249C5A05003409F7 /* Datasets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95FDD749249C5A3D003409F7 /* COCO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD72E249C5A3D003409F7 /* COCO.swift */; };
+		95FDD74A249C5A3D003409F7 /* COCOVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD72F249C5A3D003409F7 /* COCOVariant.swift */; };
+		95FDD74B249C5A3D003409F7 /* COCODataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD730249C5A3D003409F7 /* COCODataset.swift */; };
+		95FDD74C249C5A3D003409F7 /* OxfordIIITPets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD732249C5A3D003409F7 /* OxfordIIITPets.swift */; };
+		95FDD74D249C5A3D003409F7 /* Imagenette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD734249C5A3D003409F7 /* Imagenette.swift */; };
+		95FDD74E249C5A3D003409F7 /* Imagewoof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD735249C5A3D003409F7 /* Imagewoof.swift */; };
+		95FDD74F249C5A3D003409F7 /* DataUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD737249C5A3D003409F7 /* DataUtilities.swift */; };
+		95FDD750249C5A3D003409F7 /* CoLA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD738249C5A3D003409F7 /* CoLA.swift */; };
+		95FDD751249C5A3D003409F7 /* TextUnsupervised.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD73A249C5A3D003409F7 /* TextUnsupervised.swift */; };
+		95FDD752249C5A3D003409F7 /* Phrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD73C249C5A3D003409F7 /* Phrase.swift */; };
+		95FDD753249C5A3D003409F7 /* WordSegDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD73D249C5A3D003409F7 /* WordSegDataset.swift */; };
+		95FDD754249C5A3D003409F7 /* MNIST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD73F249C5A3D003409F7 /* MNIST.swift */; };
+		95FDD755249C5A3D003409F7 /* MNISTDatasetHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD740249C5A3D003409F7 /* MNISTDatasetHandler.swift */; };
+		95FDD756249C5A3D003409F7 /* FashionMNIST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD741249C5A3D003409F7 /* FashionMNIST.swift */; };
+		95FDD757249C5A3D003409F7 /* KuzushijiMNIST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD742249C5A3D003409F7 /* KuzushijiMNIST.swift */; };
+		95FDD758249C5A3D003409F7 /* BostonHousing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD744249C5A3D003409F7 /* BostonHousing.swift */; };
+		95FDD759249C5A3D003409F7 /* CIFAR10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD746249C5A3D003409F7 /* CIFAR10.swift */; };
+		95FDD75A249C5A3D003409F7 /* MovieLens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD748249C5A3D003409F7 /* MovieLens.swift */; };
+		95FDD761249C5A50003409F7 /* DatasetUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD75B249C5A50003409F7 /* DatasetUtilities.swift */; };
+		95FDD762249C5A50003409F7 /* ImageSegmentationDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD75C249C5A50003409F7 /* ImageSegmentationDataset.swift */; };
+		95FDD763249C5A50003409F7 /* LanguageModelDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD75D249C5A50003409F7 /* LanguageModelDataset.swift */; };
+		95FDD764249C5A50003409F7 /* ObjectDetectionDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD75E249C5A50003409F7 /* ObjectDetectionDataset.swift */; };
+		95FDD765249C5A50003409F7 /* TensorPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD75F249C5A50003409F7 /* TensorPair.swift */; };
+		95FDD766249C5A50003409F7 /* ImageClassificationDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDD760249C5A50003409F7 /* ImageClassificationDataset.swift */; };
+		F707D652CCB3709BD2885DFC /* Pods_Datasets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F8285DC239E5A5D46D00A0 /* Pods_Datasets.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95319284249EE3BB00553C09 /* ImagePosture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePosture.swift; sourceTree = "<group>"; };
+		95FDD722249C5A05003409F7 /* Datasets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Datasets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FDD725249C5A05003409F7 /* Datasets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Datasets.h; sourceTree = "<group>"; };
+		95FDD726249C5A05003409F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FDD72E249C5A3D003409F7 /* COCO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COCO.swift; sourceTree = "<group>"; };
+		95FDD72F249C5A3D003409F7 /* COCOVariant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COCOVariant.swift; sourceTree = "<group>"; };
+		95FDD730249C5A3D003409F7 /* COCODataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COCODataset.swift; sourceTree = "<group>"; };
+		95FDD732249C5A3D003409F7 /* OxfordIIITPets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OxfordIIITPets.swift; sourceTree = "<group>"; };
+		95FDD734249C5A3D003409F7 /* Imagenette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Imagenette.swift; sourceTree = "<group>"; };
+		95FDD735249C5A3D003409F7 /* Imagewoof.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Imagewoof.swift; sourceTree = "<group>"; };
+		95FDD737249C5A3D003409F7 /* DataUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUtilities.swift; sourceTree = "<group>"; };
+		95FDD738249C5A3D003409F7 /* CoLA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoLA.swift; sourceTree = "<group>"; };
+		95FDD73A249C5A3D003409F7 /* TextUnsupervised.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextUnsupervised.swift; sourceTree = "<group>"; };
+		95FDD73C249C5A3D003409F7 /* Phrase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phrase.swift; sourceTree = "<group>"; };
+		95FDD73D249C5A3D003409F7 /* WordSegDataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordSegDataset.swift; sourceTree = "<group>"; };
+		95FDD73F249C5A3D003409F7 /* MNIST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNIST.swift; sourceTree = "<group>"; };
+		95FDD740249C5A3D003409F7 /* MNISTDatasetHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNISTDatasetHandler.swift; sourceTree = "<group>"; };
+		95FDD741249C5A3D003409F7 /* FashionMNIST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FashionMNIST.swift; sourceTree = "<group>"; };
+		95FDD742249C5A3D003409F7 /* KuzushijiMNIST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuzushijiMNIST.swift; sourceTree = "<group>"; };
+		95FDD744249C5A3D003409F7 /* BostonHousing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BostonHousing.swift; sourceTree = "<group>"; };
+		95FDD746249C5A3D003409F7 /* CIFAR10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIFAR10.swift; sourceTree = "<group>"; };
+		95FDD748249C5A3D003409F7 /* MovieLens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLens.swift; sourceTree = "<group>"; };
+		95FDD75B249C5A50003409F7 /* DatasetUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatasetUtilities.swift; sourceTree = "<group>"; };
+		95FDD75C249C5A50003409F7 /* ImageSegmentationDataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSegmentationDataset.swift; sourceTree = "<group>"; };
+		95FDD75D249C5A50003409F7 /* LanguageModelDataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageModelDataset.swift; sourceTree = "<group>"; };
+		95FDD75E249C5A50003409F7 /* ObjectDetectionDataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetectionDataset.swift; sourceTree = "<group>"; };
+		95FDD75F249C5A50003409F7 /* TensorPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TensorPair.swift; sourceTree = "<group>"; };
+		95FDD760249C5A50003409F7 /* ImageClassificationDataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassificationDataset.swift; sourceTree = "<group>"; };
+		AFADA9BEBB5C0A3BD04F4111 /* Pods-Datasets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Datasets.release.xcconfig"; path = "Target Support Files/Pods-Datasets/Pods-Datasets.release.xcconfig"; sourceTree = "<group>"; };
+		D6F8285DC239E5A5D46D00A0 /* Pods_Datasets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Datasets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9644CF69B3462702BBB2974 /* Pods-Datasets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Datasets.debug.xcconfig"; path = "Target Support Files/Pods-Datasets/Pods-Datasets.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95FDD71F249C5A05003409F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F707D652CCB3709BD2885DFC /* Pods_Datasets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074AE426DBD1B32028635D44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6F8285DC239E5A5D46D00A0 /* Pods_Datasets.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21E233F75F9BED81777D7560 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9644CF69B3462702BBB2974 /* Pods-Datasets.debug.xcconfig */,
+				AFADA9BEBB5C0A3BD04F4111 /* Pods-Datasets.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95319281249EE37600553C09 /* Posture */ = {
+			isa = PBXGroup;
+			children = (
+				95319284249EE3BB00553C09 /* ImagePosture.swift */,
+			);
+			path = Posture;
+			sourceTree = "<group>";
+		};
+		95FDD718249C5A05003409F7 = {
+			isa = PBXGroup;
+			children = (
+				95FDD724249C5A05003409F7 /* Datasets */,
+				95FDD723249C5A05003409F7 /* Products */,
+				21E233F75F9BED81777D7560 /* Pods */,
+				074AE426DBD1B32028635D44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95FDD723249C5A05003409F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD722249C5A05003409F7 /* Datasets.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95FDD724249C5A05003409F7 /* Datasets */ = {
+			isa = PBXGroup;
+			children = (
+				95319281249EE37600553C09 /* Posture */,
+				95FDD75B249C5A50003409F7 /* DatasetUtilities.swift */,
+				95FDD760249C5A50003409F7 /* ImageClassificationDataset.swift */,
+				95FDD75C249C5A50003409F7 /* ImageSegmentationDataset.swift */,
+				95FDD75D249C5A50003409F7 /* LanguageModelDataset.swift */,
+				95FDD75E249C5A50003409F7 /* ObjectDetectionDataset.swift */,
+				95FDD75F249C5A50003409F7 /* TensorPair.swift */,
+				95FDD743249C5A3D003409F7 /* BostonHousing */,
+				95FDD745249C5A3D003409F7 /* CIFAR10 */,
+				95FDD72D249C5A3D003409F7 /* COCO */,
+				95FDD736249C5A3D003409F7 /* CoLA */,
+				95FDD733249C5A3D003409F7 /* Imagenette */,
+				95FDD73E249C5A3D003409F7 /* MNIST */,
+				95FDD747249C5A3D003409F7 /* MovieLens */,
+				95FDD731249C5A3D003409F7 /* OxfordIIITPets */,
+				95FDD739249C5A3D003409F7 /* TextUnsupervised */,
+				95FDD73B249C5A3D003409F7 /* WordSeg */,
+				95FDD725249C5A05003409F7 /* Datasets.h */,
+				95FDD726249C5A05003409F7 /* Info.plist */,
+			);
+			path = Datasets;
+			sourceTree = "<group>";
+		};
+		95FDD72D249C5A3D003409F7 /* COCO */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD72E249C5A3D003409F7 /* COCO.swift */,
+				95FDD72F249C5A3D003409F7 /* COCOVariant.swift */,
+				95FDD730249C5A3D003409F7 /* COCODataset.swift */,
+			);
+			path = COCO;
+			sourceTree = "<group>";
+		};
+		95FDD731249C5A3D003409F7 /* OxfordIIITPets */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD732249C5A3D003409F7 /* OxfordIIITPets.swift */,
+			);
+			path = OxfordIIITPets;
+			sourceTree = "<group>";
+		};
+		95FDD733249C5A3D003409F7 /* Imagenette */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD734249C5A3D003409F7 /* Imagenette.swift */,
+				95FDD735249C5A3D003409F7 /* Imagewoof.swift */,
+			);
+			path = Imagenette;
+			sourceTree = "<group>";
+		};
+		95FDD736249C5A3D003409F7 /* CoLA */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD737249C5A3D003409F7 /* DataUtilities.swift */,
+				95FDD738249C5A3D003409F7 /* CoLA.swift */,
+			);
+			path = CoLA;
+			sourceTree = "<group>";
+		};
+		95FDD739249C5A3D003409F7 /* TextUnsupervised */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD73A249C5A3D003409F7 /* TextUnsupervised.swift */,
+			);
+			path = TextUnsupervised;
+			sourceTree = "<group>";
+		};
+		95FDD73B249C5A3D003409F7 /* WordSeg */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD73C249C5A3D003409F7 /* Phrase.swift */,
+				95FDD73D249C5A3D003409F7 /* WordSegDataset.swift */,
+			);
+			path = WordSeg;
+			sourceTree = "<group>";
+		};
+		95FDD73E249C5A3D003409F7 /* MNIST */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD73F249C5A3D003409F7 /* MNIST.swift */,
+				95FDD740249C5A3D003409F7 /* MNISTDatasetHandler.swift */,
+				95FDD741249C5A3D003409F7 /* FashionMNIST.swift */,
+				95FDD742249C5A3D003409F7 /* KuzushijiMNIST.swift */,
+			);
+			path = MNIST;
+			sourceTree = "<group>";
+		};
+		95FDD743249C5A3D003409F7 /* BostonHousing */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD744249C5A3D003409F7 /* BostonHousing.swift */,
+			);
+			path = BostonHousing;
+			sourceTree = "<group>";
+		};
+		95FDD745249C5A3D003409F7 /* CIFAR10 */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD746249C5A3D003409F7 /* CIFAR10.swift */,
+			);
+			path = CIFAR10;
+			sourceTree = "<group>";
+		};
+		95FDD747249C5A3D003409F7 /* MovieLens */ = {
+			isa = PBXGroup;
+			children = (
+				95FDD748249C5A3D003409F7 /* MovieLens.swift */,
+			);
+			path = MovieLens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		95FDD71D249C5A05003409F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FDD727249C5A05003409F7 /* Datasets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		95FDD721249C5A05003409F7 /* Datasets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95FDD72A249C5A05003409F7 /* Build configuration list for PBXNativeTarget "Datasets" */;
+			buildPhases = (
+				5319C1C1C7332892884E967A /* [CP] Check Pods Manifest.lock */,
+				95FDD71D249C5A05003409F7 /* Headers */,
+				95FDD71E249C5A05003409F7 /* Sources */,
+				95FDD71F249C5A05003409F7 /* Frameworks */,
+				95FDD720249C5A05003409F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Datasets;
+			productName = Datasets;
+			productReference = 95FDD722249C5A05003409F7 /* Datasets.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95FDD719249C5A05003409F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Sadukow;
+				TargetAttributes = {
+					95FDD721249C5A05003409F7 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 95FDD71C249C5A05003409F7 /* Build configuration list for PBXProject "Datasets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95FDD718249C5A05003409F7;
+			productRefGroup = 95FDD723249C5A05003409F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95FDD721249C5A05003409F7 /* Datasets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95FDD720249C5A05003409F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5319C1C1C7332892884E967A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Datasets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95FDD71E249C5A05003409F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FDD766249C5A50003409F7 /* ImageClassificationDataset.swift in Sources */,
+				95319285249EE3BB00553C09 /* ImagePosture.swift in Sources */,
+				95FDD758249C5A3D003409F7 /* BostonHousing.swift in Sources */,
+				95FDD757249C5A3D003409F7 /* KuzushijiMNIST.swift in Sources */,
+				95FDD74C249C5A3D003409F7 /* OxfordIIITPets.swift in Sources */,
+				95FDD754249C5A3D003409F7 /* MNIST.swift in Sources */,
+				95FDD749249C5A3D003409F7 /* COCO.swift in Sources */,
+				95FDD764249C5A50003409F7 /* ObjectDetectionDataset.swift in Sources */,
+				95FDD74F249C5A3D003409F7 /* DataUtilities.swift in Sources */,
+				95FDD75A249C5A3D003409F7 /* MovieLens.swift in Sources */,
+				95FDD74A249C5A3D003409F7 /* COCOVariant.swift in Sources */,
+				95FDD761249C5A50003409F7 /* DatasetUtilities.swift in Sources */,
+				95FDD751249C5A3D003409F7 /* TextUnsupervised.swift in Sources */,
+				95FDD763249C5A50003409F7 /* LanguageModelDataset.swift in Sources */,
+				95FDD750249C5A3D003409F7 /* CoLA.swift in Sources */,
+				95FDD759249C5A3D003409F7 /* CIFAR10.swift in Sources */,
+				95FDD755249C5A3D003409F7 /* MNISTDatasetHandler.swift in Sources */,
+				95FDD752249C5A3D003409F7 /* Phrase.swift in Sources */,
+				95FDD74B249C5A3D003409F7 /* COCODataset.swift in Sources */,
+				95FDD756249C5A3D003409F7 /* FashionMNIST.swift in Sources */,
+				95FDD762249C5A50003409F7 /* ImageSegmentationDataset.swift in Sources */,
+				95FDD74E249C5A3D003409F7 /* Imagewoof.swift in Sources */,
+				95FDD765249C5A50003409F7 /* TensorPair.swift in Sources */,
+				95FDD74D249C5A3D003409F7 /* Imagenette.swift in Sources */,
+				95FDD753249C5A3D003409F7 /* WordSegDataset.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95FDD728249C5A05003409F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95FDD729249C5A05003409F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95FDD72B249C5A05003409F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9644CF69B3462702BBB2974 /* Pods-Datasets.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Datasets/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sadukow.Datasets;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		95FDD72C249C5A05003409F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFADA9BEBB5C0A3BD04F4111 /* Pods-Datasets.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Datasets/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sadukow.Datasets;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95FDD71C249C5A05003409F7 /* Build configuration list for PBXProject "Datasets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FDD728249C5A05003409F7 /* Debug */,
+				95FDD729249C5A05003409F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95FDD72A249C5A05003409F7 /* Build configuration list for PBXNativeTarget "Datasets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FDD72B249C5A05003409F7 /* Debug */,
+				95FDD72C249C5A05003409F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95FDD719249C5A05003409F7 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module FastStyleTransfer {
+  umbrella header "FastStyleTransfer-umbrella.h"
+
+  export *
+  module * { export * }
+}

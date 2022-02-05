@@ -1,0 +1,23 @@
+PODS:
+  - STBImage (0.0.1)
+  - SwiftProtobuf (1.9.0)
+
+DEPENDENCIES:
+  - STBImage (from `../STBImage`)
+  - SwiftProtobuf (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  STBImage:
+    :path: "../STBImage"
+
+SPEC CHECKSUMS:
+  STBImage: 86e27c304b8e0fe8e6743c22fd3314364a5005b5
+  SwiftProtobuf: ecbec1be9036d15655f6b3443a1c4ea693c97932
+
+PODFILE CHECKSUM: 4787d131cbfca6ee93cba520bd4f19eedcf630b0
+
+COCOAPODS: 1.9.3

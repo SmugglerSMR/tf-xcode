@@ -1,0 +1,11 @@
+framework module FastStyleTransfer {
+  umbrella header "FastStyleTransfer.h"
+
+  export *
+  module * { export * }
+}
+
+module FastStyleTransfer.Swift {
+    header "FastStyleTransfer-Swift.h"
+    requires objc
+}

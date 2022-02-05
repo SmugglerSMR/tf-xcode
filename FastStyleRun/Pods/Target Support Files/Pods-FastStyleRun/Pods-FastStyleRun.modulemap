@@ -1,0 +1,6 @@
+module Pods_FastStyleRun {
+  umbrella header "Pods-FastStyleRun-umbrella.h"
+
+  export *
+  module * { export * }
+}

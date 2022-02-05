@@ -1,0 +1,6 @@
+framework module Pods_Batcher {
+  umbrella header "Pods-Batcher-umbrella.h"
+
+  export *
+  module * { export * }
+}

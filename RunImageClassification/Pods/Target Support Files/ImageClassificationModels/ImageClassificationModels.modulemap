@@ -1,0 +1,6 @@
+module ImageClassificationModels {
+  umbrella header "ImageClassificationModels-umbrella.h"
+
+  export *
+  module * { export * }
+}

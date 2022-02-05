@@ -1,0 +1,6 @@
+module ModelSupport {
+  umbrella header "ModelSupport-umbrella.h"
+
+  export *
+  module * { export * }
+}
